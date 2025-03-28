@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'screentl_data_db';
-$user = 'screentl_data_db'; 
-$pass = 'c&N)]RWFU9vX'; 
+$dbname = '*****';
+$user = '*****'; 
+$pass = '********'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
